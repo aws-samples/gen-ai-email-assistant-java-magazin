@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+<script>
+    Office.onReady(async (info) => {
+        const params = new URLSearchParams(location.search);
+        const authCode = params.get('code')
+
+        Office.context.ui.messageParent(authCode);
+    })
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Auth</title>
+</head>
+<body>
+
+</body>
+</html>

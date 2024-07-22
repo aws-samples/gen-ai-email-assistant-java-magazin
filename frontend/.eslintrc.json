@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "office-addins"
+  ],
+  "extends": [
+    "plugin:office-addins/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jquery": true
+  },
+  "globals": {
+    "Office": "readonly",
+    "document": "writable"
+  }
+}
