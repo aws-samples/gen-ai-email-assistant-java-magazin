@@ -7,13 +7,14 @@ import software.amazon.awscdk.StackProps;
 import java.util.Map;
 
 public class GenMailApp {
+    static String ACCOUNT_ID = "CHANGE_ME";
     static Environment DEV = Environment.builder()
             .region("eu-central-1")
-            .account("414184173441").build();
+            .account(ACCOUNT_ID).build();
 
     static Environment PROD = Environment.builder()
             .region("us-east-1")
-            .account("414184173441").build();
+            .account(ACCOUNT_ID).build();
 
     public static void main(final String[] args) {
         App app = new App();
