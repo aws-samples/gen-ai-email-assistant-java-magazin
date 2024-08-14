@@ -4,7 +4,7 @@ This is a sample project accompanying the article series _Keine Zeit zum E-Mail 
 
 Over the course of two articles, the authors Michael Graumann and Markus Ziller provide an in-depth discussion of the email assistant's architecture.
 
-The articles were published in the 08/24 and 09/24 issues of Java Magazin.
+The articles were published in the 09/24 and 10/24 issues of Java Magazin.
 
 ## Getting Started
 
