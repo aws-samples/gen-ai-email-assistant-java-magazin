@@ -1,5 +1,8 @@
 # GenMail
 
+> [!IMPORTANT]
+> This project has been archived and is no longer actively maintained. No further issues, pull requests, or updates will be accepted. The code remains available as-is for reference purposes. If you need continued development, consider forking the repository.
+
 This is a sample project accompanying the article series _Keine Zeit zum E-Mail schreiben? Wie man sich seinen eigenen GenAI-E-Mail-Assistenten auf AWS baut_ in the German Java-focused tech journal Java Magazin.
 
 Over the course of two articles, the authors Michael Graumann and Markus Ziller provide an in-depth discussion of the email assistant's architecture.
